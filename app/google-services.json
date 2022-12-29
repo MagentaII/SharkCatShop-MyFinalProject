@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "788185021475",
+    "project_id": "sharkcatshop",
+    "storage_bucket": "sharkcatshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788185021475:android:99ac7b137136a9dfe0c596",
+        "android_client_info": {
+          "package_name": "com.example.sharkcatshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788185021475-bq38rvbhj1u2r538p39l8eddhumol0hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXHNIBY-4VIJS_ODkChMMZVUOpdzIBK7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788185021475-bq38rvbhj1u2r538p39l8eddhumol0hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
