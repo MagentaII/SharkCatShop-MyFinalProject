@@ -29,6 +29,7 @@ public class ShoppingCartAdapter extends RecyclerView.Adapter<ShoppingCartAdapte
 
     public void setAllStickerCartList(List<StickerCart> allStickerCartList) {
         this.allStickerCartList = allStickerCartList;
+        notifyDataSetChanged();
     }
 
     @NonNull

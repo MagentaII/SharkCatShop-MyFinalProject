@@ -34,6 +34,7 @@ public class ShoppingCartFragment extends Fragment {
     private RecyclerView recyclerView;
     private StickerViewModel stickerViewModel;
     private ShoppingCartAdapter shoppingCartAdapter;
+    private Button btnDelete;
 
     public static ShoppingCartFragment newInstance() {
         return new ShoppingCartFragment();
@@ -55,7 +56,14 @@ public class ShoppingCartFragment extends Fragment {
             @Override
             public void onChanged(List<StickerCart> stickerCarts) {
                 shoppingCartAdapter.setAllStickerCartList(stickerCarts);
-                shoppingCartAdapter.notifyDataSetChanged();
+
+            }
+        });
+
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stickerViewModel.deleteAllStickers();
             }
         });
 
@@ -63,6 +71,7 @@ public class ShoppingCartFragment extends Fragment {
 
     }
     public void initializeVariables(View view){
+        btnDelete = view.findViewById(R.id.btn_delete);
         shoppingCartAdapter = new ShoppingCartAdapter(getContext());
         stickerViewModel = new ViewModelProvider(this).get(StickerViewModel.class);
         recyclerView = view.findViewById(R.id.recyclerView);

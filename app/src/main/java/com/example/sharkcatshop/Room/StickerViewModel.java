@@ -34,8 +34,8 @@ public class StickerViewModel extends AndroidViewModel {
         stickerRepository.deleteSticker();
     }
 
-    public void deleteAllStickers(StickerCart... stickerCarts){
-        stickerRepository.getAllStickerLive();
+    public void deleteAllStickers(){
+        stickerRepository.deleteAllStickers();
     }
 
 }
