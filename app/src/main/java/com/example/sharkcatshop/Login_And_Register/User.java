@@ -1,4 +1,4 @@
-package com.example.sharkcatshop.Login_And_Signup;
+package com.example.sharkcatshop.Login_And_Register;
 
 public class User {
 
