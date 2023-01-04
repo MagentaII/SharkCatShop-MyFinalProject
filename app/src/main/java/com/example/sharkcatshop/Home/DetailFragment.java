@@ -82,9 +82,10 @@ public class DetailFragment extends Fragment {
         stickerCart.setStickerPrice(stickerItem.getStickerPrice());
         stickerCart.setStickerImage(stickerItem.getStickerImage());
 
-        Toast.makeText(getContext(), stickerCart.getStickerName().toString(), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getContext(), stickerCart.getStickerName().toString(), Toast.LENGTH_SHORT).show();
 
         stickerViewModel.insertSticker(stickerCart);
+        Toast.makeText(getContext(), "已加入購物車", Toast.LENGTH_SHORT).show();
     }
 
     public void initializeVariables(View view){

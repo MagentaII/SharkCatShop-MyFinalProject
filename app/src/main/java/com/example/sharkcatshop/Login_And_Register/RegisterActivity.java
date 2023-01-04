@@ -30,7 +30,6 @@ public class RegisterActivity extends AppCompatActivity {
     Button btnSignUp;
     FirebaseAuth firebaseAuth;
     DatabaseReference reference;
-    User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
