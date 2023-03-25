@@ -13,5 +13,26 @@
 >#### 連結Firebase來做登入住冊頁面
 >#### RecyclerView + spinner的使用
 >#### 利用Bundle + 序列化的方式，製作詳細頁面資料
-
 ---
+### 功能示意圖：
+>### 一、判斷有無網路(BroadcastReceiver)
+> ![11.png](https://github.com/MagentaII/images/blob/main/11.png)
+> ![12.png](https://github.com/MagentaII/images/blob/main/12.png)
+
+>### 二、 登入頁面(連結Firebase + SharePreferences記住密碼)
+> ![13.png](https://github.com/MagentaII/images/blob/main/13.png)
+> ![14.png](https://github.com/MagentaII/images/blob/main/14.png)
+> ![15.png](https://github.com/MagentaII/images/blob/main/15.png)
+
+>### 三、 主畫面(RecyclerView + spinner)
+> ![16.png](https://github.com/MagentaII/images/blob/main/16.png)
+> ![17.png](https://github.com/MagentaII/images/blob/main/17.png)
+> ![18.png](https://github.com/MagentaII/images/blob/main/18.png)
+> ![19.png](https://github.com/MagentaII/images/blob/main/19.png)
+
+>### 四、 詳細資料(Bundle + 序列化)
+> ![20.png](https://github.com/MagentaII/images/blob/main/20.png)
+
+>### 五、 購物車(Room + MVVM)
+> ![21.png](https://github.com/MagentaII/images/blob/main/21.png)
+> ![22.png](https://github.com/MagentaII/images/blob/main/22.png)
